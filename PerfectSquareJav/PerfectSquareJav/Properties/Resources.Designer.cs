@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RockPaperScissorsJaviera.Properties {
+namespace PerfectSquareJav.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace RockPaperScissorsJaviera.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("RockPaperScissorsJaviera.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("PerfectSquareJav.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -63,9 +63,9 @@ namespace RockPaperScissorsJaviera.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap rockpaperscissors {
+        internal static System.Drawing.Bitmap blue_squares_abstract_hd_wallpaper_x_PIC_WGT1035072 {
             get {
-                object obj = ResourceManager.GetObject("rockpaperscissors", resourceCulture);
+                object obj = ResourceManager.GetObject("blue-squares-abstract-hd-wallpaper-x-PIC-WGT1035072", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace RockPaperScissorsJaviera.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap RPS {
+        internal static System.Drawing.Bitmap sqr {
             get {
-                object obj = ResourceManager.GetObject("RPS", resourceCulture);
+                object obj = ResourceManager.GetObject("sqr", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

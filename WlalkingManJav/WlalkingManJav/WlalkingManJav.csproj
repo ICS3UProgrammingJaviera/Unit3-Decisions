@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6BF3C5D2-5D6F-45E8-BEB7-3FCD410E78E5}</ProjectGuid>
+    <ProjectGuid>{001D954E-CC40-41DF-BC02-AECB49D40479}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>RockPaperScissorsJaviera</RootNamespace>
-    <AssemblyName>RockPaperScissorsJaviera</AssemblyName>
+    <RootNamespace>WlalkingManJav</RootNamespace>
+    <AssemblyName>WlalkingManJav</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,14 +45,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="RockPaperScissorsForm.cs">
+    <Compile Include="WalkingManForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RockPaperScissorsForm.Designer.cs">
-      <DependentUpon>RockPaperScissorsForm.cs</DependentUpon>
+    <Compile Include="WalkingManForm.Designer.cs">
+      <DependentUpon>WalkingManForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="RockPaperScissors.cs" />
+    <Compile Include="WalkingMan.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="WalkingManForm.resx">
+      <DependentUpon>WalkingManForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,9 +66,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="RockPaperScissorsForm.resx">
-      <DependentUpon>RockPaperScissorsForm.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -80,10 +80,34 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\RPS.jpg" />
+    <None Include="Resources\walk1.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\rockpaperscissors.png" />
+    <None Include="Resources\walk2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk6.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk7.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk8.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk9.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk10.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

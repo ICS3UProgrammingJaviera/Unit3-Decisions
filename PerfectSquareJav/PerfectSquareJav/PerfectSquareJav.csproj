@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6BF3C5D2-5D6F-45E8-BEB7-3FCD410E78E5}</ProjectGuid>
+    <ProjectGuid>{662024BF-43D1-4663-AE53-17A1FF542D20}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>RockPaperScissorsJaviera</RootNamespace>
-    <AssemblyName>RockPaperScissorsJaviera</AssemblyName>
+    <RootNamespace>PerfectSquareJav</RootNamespace>
+    <AssemblyName>PerfectSquareJav</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,14 +45,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="RockPaperScissorsForm.cs">
+    <Compile Include="PerfectSquareForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RockPaperScissorsForm.Designer.cs">
-      <DependentUpon>RockPaperScissorsForm.cs</DependentUpon>
+    <Compile Include="PerfectSquareForm.Designer.cs">
+      <DependentUpon>PerfectSquareForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="RockPaperScissors.cs" />
+    <Compile Include="PerfectSquare.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="PerfectSquareForm.resx">
+      <DependentUpon>PerfectSquareForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,9 +66,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="RockPaperScissorsForm.resx">
-      <DependentUpon>RockPaperScissorsForm.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -80,10 +80,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\RPS.jpg" />
+    <None Include="Resources\blue-squares-abstract-hd-wallpaper-x-PIC-WGT1035072.jpeg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\rockpaperscissors.png" />
+    <None Include="Resources\sqr.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
