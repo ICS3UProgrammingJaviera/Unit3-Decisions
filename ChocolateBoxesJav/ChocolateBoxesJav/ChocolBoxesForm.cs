@@ -29,6 +29,8 @@ namespace ChocolateBoxesJav
             const int MAX_VALUE = 100;
             int numBoxes;
 
+            this.txtNumBoxes.Text = numBoxes();
+            
             //
             if (numBoxes > 20)
             {
