@@ -105,7 +105,7 @@
             // 
             // mniExit
             // 
-            this.mniExit.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.mniExit.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.mniExit.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.mniExit.Name = "mniExit";
             this.mniExit.Size = new System.Drawing.Size(152, 22);

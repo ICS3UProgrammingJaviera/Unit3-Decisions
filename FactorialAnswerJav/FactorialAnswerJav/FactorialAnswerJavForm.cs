@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+ * Created by: Javiera Diaz
+ * Created on: Day-Month-Year
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day #20 - Factorial Do While
+ * This program displays factorial numbers and answer in a listbox and label.
+*/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
